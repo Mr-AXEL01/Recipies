@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1290ad5f-290c-4d89-a6eb-f6d7ca3843e6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/databaseConnect.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/databaseConnect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/sql/Database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/databaseConnect.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/databaseConnect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/variables.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/variables.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,27 +42,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\RECIPIES\app\sql" />
       <recent name="C:\xampp\htdocs\RECIPIES\app" />
       <recent name="C:\xampp\htdocs\RECIPIES" />
     </key>
@@ -89,7 +96,10 @@
       <option name="presentableId" value="Default" />
       <updated>1705537132647</updated>
       <workItem from="1705537134020" duration="511000" />
-      <workItem from="1705610442120" duration="11469000" />
+      <workItem from="1705610442120" duration="21817000" />
+      <workItem from="1706038330714" duration="290000" />
+      <workItem from="1706038631949" duration="4000" />
+      <workItem from="1706038639398" duration="70000" />
     </task>
     <servers />
   </component>
