@@ -29,7 +29,7 @@ require_once(__DIR__ . '/isConnect.php');
             <div id="title-help" class="form-text">Choisissez un titre percutant !</div>
         </div>
         <div class="mb-3">
-            <label for="recipe" class="form-label">Description de la recette</label>
+            <label for="recipy" class="form-label">Description de la recette</label>
             <textarea class="form-control" placeholder="Seulement du contenu vous appartenant ou libre de droits." id="recipy" name="recipy"></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Envoyer</button>
