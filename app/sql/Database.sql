@@ -16,3 +16,12 @@ CREATE TABLE IF NOT EXISTS user (
     email VARCHAR(255) NOT NULL,
     password VARCHAR(255) NOT NULL
 );
+
+CREATE TABLE IF NOT EXISTS comment (
+    commentID INT(11) PRIMARY KEY AUTO_INCREMENT,
+    userID INT(11) NOT NULL ,
+    recipyID INT (11) NOT NULL ,
+    comment LONGTEXT NOT NULL,
+    FOREIGN KEY (userID) REFERENCES user(userID),
+    FOREIGN KEY (recipyID) REFERENCES recipy(recipyID)
+);
