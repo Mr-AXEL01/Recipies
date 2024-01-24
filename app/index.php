@@ -27,13 +27,13 @@ require_once(__DIR__ . '/functions.php');
 
         	<?php foreach (getRecipes($recipies) as $recipy) : ?>
             	<article>
-                    <h3><a href="recipes_read.php?id=<?php echo($recipy['recipyID']); ?>"><?php echo($recipy['title']); ?></a></h3>
+                    <h3><a href="recipies_read.php?id=<?php echo($recipy['recipyID']); ?>"><?php echo($recipy['title']); ?></a></h3>
                     <div><?php echo $recipy['recipy']; ?></div>
                     <i><?php echo displayAuthor($recipy['author'], $users); ?></i>
                     <?php if (isset($_SESSION['LOGGED_USER']) && $recipy['author'] === $_SESSION['LOGGED_USER']['email']) : ?>
                         <ul class="list-group list-group-horizontal">
-                            <li class="list-group-item"><a class="link-warning" href="recipes_update.php?id=<?php echo($recipy['recipyID']); ?>">Editer l'article</a></li>
-                            <li class="list-group-item"><a class="link-danger" href="recipes_delete.php?id=<?php echo($recipy['recipyID']); ?>">Supprimer l'article</a></li>
+                            <li class="list-group-item"><a class="link-warning" href="recipies_update.php?id=<?php echo($recipy['recipyID']); ?>">Editer l'article</a></li>
+                            <li class="list-group-item"><a class="link-danger" href="recipies_delete.php?id=<?php echo($recipy['recipyID']); ?>">Supprimer l'article</a></li>
                         </ul>
                     <?php endif; ?>
             	</article>

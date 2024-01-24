@@ -15,6 +15,9 @@
           <a class="nav-link" href="contact.php">Contact</a>
         </li>
         <?php if (isset($_SESSION['LOGGED_USER'])) : ?>
+            <li class="nav-item">
+                <a class="nav-link" href="recipies_create.php">Create a recipy !</a>
+            </li>
         <li class="nav-item">
           <a class="nav-link" href="logout.php">Log out</a>
         </li>

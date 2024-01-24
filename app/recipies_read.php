@@ -2,7 +2,8 @@
 session_start();
 
 require_once(__DIR__ . '/config/mysql.php');
-require_once(__DIR__ . '/databaseConnect.php');
+//require_once(__DIR__ . '/databaseConnect.php');
+require_once (__DIR__ . '/variables.php');
 
 /**
  * On ne traite pas les super globales provenant de l'utilisateur directement,
@@ -19,7 +20,7 @@ if (!isset($getData['id']) || !is_numeric($getData['id'])) {
 $retrieveRecipeStatement = $dbh->prepare('SELECT r.* FROM recipy r WHERE r.recipyID = :id ');
 $retrieveRecipeStatement->execute([
     'id' => (int)$getData['id'],
-]);
+]) or die(print_r($dbh->errorInfo()));
 $recipy = $retrieveRecipeStatement->fetch();
 
 if (!$recipy) {

@@ -3,7 +3,8 @@ session_start();
 
 require_once(__DIR__ . '/isConnect.php');
 require_once(__DIR__ . '/config/mysql.php');
-require_once(__DIR__ . '/databaseConnect.php');
+//require_once(__DIR__ . '/databaseConnect.php');
+require_once (__DIR__ . '/variables.php');
 
 /**
  * On ne traite pas les super globales provenant de l'utilisateur directement,
